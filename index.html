@@ -1,16 +1,152 @@
 <!DOCTYPE html>
-<html>
-    <html lang="ja">
-    <head>
+<html lang="ja">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    <meta keyword="Bootcamp">
+    <title>ポートフォリオ</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <style>
+     nav {
+       background-color: red;
+     }
+     .self{
+       color:red;
+     }
+     
+     #Pic {
+       max-height:300px;
+       max-width:300px;
+       border-radius: 100%;
+       border: 2px solid #ddd;
+     }
+     
+      #gitpic {
+       max-height:35px;
+       max-width:35px;
+       border-radius: 100%;
+       border: 1px solid #ddd;
+     }
+     
+     header {
+  background-image: url("BMB.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom:50px;
+}
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  .self-detail {
+    color:red;
+  }
+
+   </style>
+  
+   
+   
+  </head>
+  
+  
+  <body style="padding-top: 50px">
+<header>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:yellow;">
+      <div class="container-fluid">
+          <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="horizontal" data-target="#top-menu">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="index.html">Nori's room </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="top-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html"><span  class="glyphicon glyphicon-home"></span>Home</a></li>
+              <li><a href="about.html"><span  class="glyphicon glyphicon-user"></span>About</a></li>
+              <li><a href="contact.html"><span  class="glyphicon glyphicon-envelope"></span>Contact</a></li>
+              <li><a href="https://github.com/noritakamishima" target="_blank"><img src="git.png" alt="" id="gitpic"></img>Github</a></li>
+            </ul>
+          </div>
+        
+      </div>
+
+    
+  </nav>  
+      <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+ 
+    <img src="BM.jpg" alt="こうもり" id="Pic"></img>
+  <br />
+  <br />
+  <br />
+
+</header>
+
+
+   <h3 class="self"> About </h3>
+   <h5 class="self"> nori mishima</h5>
+<ul>
+    <li>趣味：読書 </li>
+    <li>好物：焼肉 </li>
+    <li>住所：東京 </li>
+    
+</ul>
+
+<div class="panel panel-default">
+  
+  <!--panelのheader -->
+  <div class="panel-heading" style="background-color: yellow;">
+    Bootcamp挑戦日記
+  </div>
+  
+  
+  <!--panelの本文 -->
+  <div class="panel-body">
+    <h3 class="panel-title">
+      <span class="glyphicon glyphicon-thumbs-up"></span>ガチの初心者
+    </h3>
+バナー広告の素敵なキャッチコピーを信じ、プログラミング経験<strong><a href="http://www.sapporobeer.jp/gokuzero/cm/index.html"  target="_blank" style="color:red;">ゼロ
+</a></strong>の男がサービス構築に挑戦
+  
+  <!--panelのfooter-->
+  <div class="panel-footer" style="background-color: gray;"> 
+    作成日 2015年9月28日
+  </div>
+  
+</div>
+
+<section>
+
+      <div class="btn-group btn-group-vertical">
+          <a href="comming soon.html" target="_blank" class="btn btn-danger ">Msg. board</a>
+          <a href="comming soon.html" target="_blank" class="btn btn-primary ">TwitterClone</a>
+          <a href="comming soon.html" target="_blank" class="btn btn-success">Mono list</a>
+          <a href="comming soon.html" target="_blank" class="btn btn-info">Original Service</a>
+      </div>
+
+  
+</section>
+
+
+
+<footer>
+</footer>
+
   </body>
 </html>
